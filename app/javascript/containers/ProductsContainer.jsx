@@ -6,8 +6,9 @@ const ProductList = () => {
     const products = ['Product 1', 'Product2','Product3']
     const productList = products.map(product => <Product />)
 
-    <div className="container">
-    <div className="row">
+    return (
+    <div className = "container">
+    <div className = "row">
        <Product /> 
       <div className="col-md-12 mb-2">
         <div className="row">
@@ -63,11 +64,9 @@ const ProductList = () => {
       </div>
     </div> 
   </div> 
-
+    )
+    
 }
 
-return (
-        
-)
 
 export default ProductList
