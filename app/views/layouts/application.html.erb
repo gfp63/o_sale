@@ -12,10 +12,15 @@
 
   <body>
   
-  <%= render 'shared/header' %>
-  <%= render 'shared/messages' %>
-  <%= yield %>
-  <%= render 'shared/footer' %>
+  
+  <div id='root'>
+    <%= yield %>
+  </div>
+  
+
+  <%#= render 'shared/header' %>
+  <%#= render 'shared/messages' %>
+  <%#= render 'shared/footer' %>
   
   </body>
 </html>
