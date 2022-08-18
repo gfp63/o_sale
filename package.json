@@ -23,5 +23,8 @@
     "turbolinks": "^5.2.0",
     "uid-safe": "^2.1.5"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "version": "0.1.0"
 }
