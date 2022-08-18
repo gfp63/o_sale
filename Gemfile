@@ -28,7 +28,9 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :production do
-  gem 'pg'
+  source "https://rubygems.org/" do
+    gem 'pg', '= 1.4.3'
+  end
 end
 
 group :development, :test do
