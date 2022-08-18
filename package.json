@@ -13,6 +13,7 @@
     "debug": "^2.6.9",
     "jquery": "^3.6.0",
     "ms": "^2.0.0",
+    "node-sass": "^4.14.1",
     "popper": "^1.0.1",
     "prop-types": "^15.8.1",
     "random-bytes": "^1.0.0",
