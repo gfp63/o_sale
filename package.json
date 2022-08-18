@@ -9,12 +9,18 @@
     "@rails/webpacker": "4.3.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "bootstrap": "4.0.0",
+    "cookie": "^0.4.2",
+    "debug": "^2.6.9",
     "jquery": "^3.6.0",
+    "ms": "^2.0.0",
     "popper": "^1.0.1",
     "prop-types": "^15.8.1",
+    "random-bytes": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "turbolinks": "^5.2.0"
+    "safe-buffer": "^5.2.1",
+    "turbolinks": "^5.2.0",
+    "uid-safe": "^2.1.5"
   },
   "version": "0.1.0"
 }
