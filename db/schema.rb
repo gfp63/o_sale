@@ -12,10 +12,13 @@
 
 ActiveRecord::Schema.define(version: 2022_08_17_000111) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "comments", force: :cascade do |t|
     t.text "body"
-    t.integer "product_id", null: false
-    t.integer "user_id", null: false
+    t.bigint "product_id", null: false
+    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["product_id"], name: "index_comments_on_product_id"
@@ -30,7 +33,7 @@ ActiveRecord::Schema.define(version: 2022_08_17_000111) do
     t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "user_id"
+    t.bigint "user_id"
     t.integer "quantity"
     t.index ["user_id"], name: "index_products_on_user_id"
   end
